@@ -273,3 +273,12 @@ header{
     font-size: 18px !important;
     font-weight: 700;
 }
+/* movies */
+.movie .heading{
+    padding: 10px 14px;
+}
+.movies-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(247px, 1fr));
+    gap: 1.5rem;
+}
